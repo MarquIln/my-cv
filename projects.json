@@ -5,21 +5,24 @@
       "description": "Esta plataforma visa estabelecer uma rede social voltada à integração dos estudantes universitários. Nesse ambiente, os alunos têm a possibilidade de criar grupos centrados em tópicos de seu interesse, além de interagir com postagens e compartilhar documentos. Adicionalmente, a plataforma permite a organização e divulgação de eventos, contribuindo para fortalecer a coesão da comunidade universitária",
       "image": "comunidade.png",
       "link": "https://tools.ages.pucrs.br/comunidade-universitaria/wiki/-/wikis/home",
-      "buttonContent": "Acessar a Wiki do projeto"
+      "buttonContent": "Acessar a Wiki do projeto",
+      "repositoryLink": "https://tools.ages.pucrs.br/comunidade-universitaria"
     },
     {
       "name": "Trivia Quiz",
       "description": "O Trivia Quiz é um jogo de perguntas e respostas que tem como objetivo testar o conhecimento dos jogadores em diversas áreas. O jogo é composto por 10 perguntas de múltipla escolha, e o jogador deve responder corretamente o maior número de perguntas possíveis. Foi um projeto feito em pair-programming com um amigo, apenas para ver como estava o nosso conhecimento em React, Tailwind e JavaScript.",
       "image": "trivia.png",
       "link": "https://trivia-quiz-seven.vercel.app/start",
-      "buttonContent": "Acessar o quiz"
+      "buttonContent": "Acessar o quiz",
+      "repositoryLink": "https://github.com/eichnerlucas/trivia-quiz"
     },
     {
       "name": "Guess CS:GO Skin",
       "description": "Guess CS:GO Skin é um jogo de adivinhação de skins do jogo Counter-Strike: Global Offensive. O jogo consiste em ter uma skin aleatória do jogo CS:GO, onde no inicio começa com a skin borrada e a cada tentativa vai diminuindo o blur da imagem, até ficar totalmente nítida, o jogador recebe um feedback se acertou ou errou alguma caracteristica da skin, como o nome, o tipo de arma, a raridade e a coleção da skin.",
       "image": "csgo.png",
       "link": "https://guesscskins.netlify.app/",
-      "buttonContent": "Acessar o site"
+      "buttonContent": "Acessar o site",
+      "repositoryLink": "https://github.com/MarquIln/guess-cs-skins"
     }
   ]
 }
