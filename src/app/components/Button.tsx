@@ -1,23 +1,19 @@
-import { Button } from '@chakra-ui/react'
+import { Button as ChakraButton } from '@chakra-ui/react'
+import type { ReactNode } from 'react'
 
 interface ButtonProps {
-  content: string
+  content: string | ReactNode
   onClick?: () => void
   icon?: React.ReactNode
 }
 
-export function CvButton({ content, onClick, icon }: ButtonProps) {
+export function Button({ content, onClick, icon }: ButtonProps) {
+  const isClickable = !!onClick
   return (
-    <Button onClick={onClick} colorScheme="blue" size="lg" className="border-8 border-blue-400 rounded-md text-zinc-100 bg-blue-400 flex flex-row items-center justify-center text-xl">
+    <ChakraButton onClick={onClick} colorScheme="slate" size="lg" className={`border-8 border-slate-800 rounded-md text-zinc-100 bg-slate-800 flex flex-row items-center justify-center text-xl  ${isClickable ? 'cursor-pointer' : 'cursor-auto'}`}>
       <span style={{ verticalAlign: 'middle' }}>{icon}</span>
-      <div className="w-2"></div>
+      {icon && <div className="w-2"></div>}
       {content}
-    </Button>
+    </ChakraButton>
   )
 }
-
-// <button className="border-8 border-blue-400 rounded-md text-zinc-100 bg-blue-400 flex flex-row items-center justify-center text-xl" onClick={onClick}>
-//   <span style={{ verticalAlign: 'middle' }}>{icon}</span>
-//   <div className="w-2"></div>
-//   {content}
-// </button>
